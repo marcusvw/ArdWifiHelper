@@ -59,12 +59,10 @@ void WIF_init()
             Serial.println(F("WIF INF WIFI Succesfully Connected"));
             Serial.print("WIF INF M5 IP: ");
             Serial.println(WiFi.localIP());
-            //M5.Lcd.printf("WIFI IP:%s\r\n", WiFi.localIP().toString().c_str());
         }
         else
         {
             Serial.println(F("WIF INF WIFI Not connected"));
-            //M5.Lcd.print("WIFI not connected");
         }
     }
 }
